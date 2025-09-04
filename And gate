@@ -1,0 +1,10 @@
+// AND Gate
+module and_gate (
+    input a, 
+    input b, 
+    output y
+);
+
+assign y = a | b;   // output is 1 only if both inputs are 1
+
+endmodule
